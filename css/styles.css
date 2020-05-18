@@ -1,0 +1,157 @@
+/* Reset */
+
+* {
+  margin:0;
+  padding:0;
+}
+
+img {
+  width: 100%;
+}
+
+/* Structure */
+
+html, body {
+  background-color: white;
+  height: 100%
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: #444444;
+  background-color: #5A0511;
+  cursor: url("../assets/favicon_io/favicon-32x32.png"), auto;
+}
+
+section {
+  margin: 0;
+  padding: 10%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.footer {
+  background-color: #5A0511;
+  color: #ffffff;
+}
+
+/* Gradients */
+
+.non-pungent {
+  background-color: #DAF7A6;
+  background: linear-gradient(180deg, rgba(218,247,166,1) 0%, rgba(255,195,0,1) 100%);
+}
+
+.mildly-pungent {
+  background-color: #FFC300;
+  background: linear-gradient(0deg, rgba(255,87,51,1) 0%, rgba(255,195,0,1) 100%);
+}
+
+.moderately-pungent {
+    background-color: #FF5733;
+    background: linear-gradient(180deg, #ff5733 0%, #c70039 100%);
+}
+
+.highly-pungent {
+    background: linear-gradient(180deg, #c70039 0%, #900c1e 100%);
+}
+
+.very-highly-pungent {
+  color: #F1ECEC;
+  background: linear-gradient(180deg, rgba(144,12,30,1) 0%, #5A0511 100%);
+}
+
+/* Text */
+
+h1,h2,h3,h4,p {
+  margin: 7% 0;
+}
+
+h1 {
+  color: #5A0511;
+  font-size: 3em;
+}
+
+h2 {
+  color: #900c1e;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 2%;
+}
+
+p {
+  margin: 5% 0;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+/* Links */
+
+a, a:visited  {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 2px solid #ffffff;
+}
+
+/* Table */
+
+table {
+  width: 100%
+}
+
+th {
+  text-align: left;
+}
+
+/* List */
+
+ul {
+  margin: 0 15%;
+}
+
+li {
+  margin: 5% 0;
+  font-size: 1.2em;
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* Structure */
+
+  section {
+    height: auto;
+    padding: 5%;
+  }
+
+  /* Text */
+
+  h1 {
+    font-size: 5em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 2.5em;
+  }
+
+  /* Table */
+
+  table {
+    max-width: 400px;
+  }
+
+  th {
+    font-size: 1.2em;
+  }
+
+  td {
+    height: 30px;
+  }
+
+}
